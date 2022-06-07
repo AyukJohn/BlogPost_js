@@ -12,9 +12,14 @@
         adminAboutOutput =''
 
 
-        const aboutUrl = 'http://127.0.0.1:8000/v1/api/aboutMe'
+        // const aboutUrl = 'http://127.0.0.1:8000/v1/api/aboutMe'
 
-        const editUrl = 'http://127.0.0.1:8000/v1/api/aboutDetail'
+        // const editUrl = 'http://127.0.0.1:8000/v1/api/aboutDetail'
+        const aboutUrl = 'https://dzblog.herokuapp.com/v1/api/aboutMe'
+
+        const editUrl = 'https://dzblog.herokuapp.com/v1/api/aboutDetail'
+
+        // https://dzblog.herokuapp.com
 
 
         

@@ -1,8 +1,11 @@
 
      const aboutMeCreate = document.querySelector('.aboutMeForm')
 
-     const aboutUrl = 'http://127.0.0.1:8000/v1/api/aboutMe'
+    //  const aboutUrl = 'http://127.0.0.1:8000/v1/api/aboutMe'
+    const aboutUrl = 'https://dzblog.herokuapp.com/v1/api/aboutMe'
 
+
+    //  https://dzblog.herokuapp.com
 
 
      aboutMeCreate.addEventListener('submit', (e) =>{

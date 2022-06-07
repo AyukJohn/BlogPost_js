@@ -40,7 +40,10 @@
 
 
 
-      let urlPost = 'http://127.0.0.1:8000/v1/api/admin_article'
+      // let urlPost = 'http://127.0.0.1:8000/v1/api/admin_article'
+      let urlPost = 'https://dzblog.herokuapp.com/v1/api/admin_article'
+
+     
 
       // const Puturl = 'http://127.0.0.1:8000/v1/api/article_detail';
 

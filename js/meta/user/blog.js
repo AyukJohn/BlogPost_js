@@ -15,7 +15,10 @@ const id = localstorage_blog.tasks.id
 console.log(id)
 
 
-const PostSingelurl = 'http://127.0.0.1:8000/v1/api/userArticle_detail';
+// const PostSingelurl = 'http://127.0.0.1:8000/v1/api/userArticle_detail';
+const PostSingelurl = 'https://dzblog.herokuapp.com/v1/api/userArticle_detail';
+
+
 
 
 const Fetch = fetch(`${PostSingelurl}/${id}`, {
@@ -69,7 +72,10 @@ const commentEmail = document.getElementById('email')
 
 const commentTopic = document.getElementById('commentTopic')
 
-const PostCommenturl = 'http://127.0.0.1:8000/v1/api/ArticleComment';
+// const PostCommenturl = 'http://127.0.0.1:8000/v1/api/ArticleComment';
+// const PostCommenturl = 'https://dzblog.herokuapp.com/v1/api/ArticleComment';
+
+// https://dzblog.herokuapp.com
 
 
 commentForm.addEventListener('submit', (e)=> {

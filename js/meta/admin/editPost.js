@@ -17,7 +17,10 @@
 
       let correctPost = document.querySelector('.edit')
 
-      const Puturl = 'http://127.0.0.1:8000/v1/api/adminArticle_detail';
+    //   const Puturl = 'http://127.0.0.1:8000/v1/api/adminArticle_detail';
+    const Puturl = 'https://dzblog.herokuapp.com/v1/api/adminArticle_detail';
+
+    //   https://dzblog.herokuapp.com
 
 
 

@@ -40,9 +40,15 @@ const userName = document.querySelector('.userName')
 
 const newsList = document.querySelector('.newsList');
 
-const postUrl = 'http://127.0.0.1:8000/v1/api/admin_article';
+// const postUrl = 'http://127.0.0.1:8000/v1/api/admin_article';
 
-const commentUrl = 'http://127.0.0.1:8000/v1/api/ArticleComment';
+// const commentUrl = 'http://127.0.0.1:8000/v1/api/ArticleComment';
+
+const postUrl = 'https://dzblog.herokuapp.com/v1/api/admin_article';
+
+const commentUrl = 'https://dzblog.herokuapp.com/v1/api/ArticleComment';
+
+// https://dzblog.herokuapp.com
 
 
 

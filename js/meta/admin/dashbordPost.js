@@ -11,8 +11,13 @@
 
         console.log(inMemoryToken)
 
-        const postUrl = 'http://127.0.0.1:8000/v1/api/admin_article';
-        const PostSingelurl = 'http://127.0.0.1:8000/v1/api/adminArticle_detail'
+        // const postUrl = 'http://127.0.0.1:8000/v1/api/admin_article';
+        // const PostSingelurl = 'http://127.0.0.1:8000/v1/api/adminArticle_detail'
+
+        const postUrl = 'https://dzblog.herokuapp.com/v1/api/admin_article';
+        const PostSingelurl = 'https://dzblog.herokuapp.com/v1/api/adminArticle_detail'
+
+        
 
         const table = document.querySelector('.tables')
         const userName = document.querySelector('.userName')

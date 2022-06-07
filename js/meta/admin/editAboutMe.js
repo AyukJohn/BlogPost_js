@@ -20,8 +20,10 @@
 
       let correctPost = document.querySelector('.editAbout')
 
-      const Puturl = 'http://127.0.0.1:8000/v1/api/aboutDetail';
+      // const Puturl = 'http://127.0.0.1:8000/v1/api/aboutDetail';
+      const Puturl = 'https://dzblog.herokuapp.com/v1/api/aboutDetail';
 
+     
 
 
      let id = inMemoryAbout.tasks.id

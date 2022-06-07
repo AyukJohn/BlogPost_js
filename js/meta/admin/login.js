@@ -4,7 +4,10 @@ const userName = document.getElementById('username')
 
 const passWord = document.getElementById('password')
 
-const loginApiUrl = 'http://127.0.0.1:8000/v1/api/auth/login'
+// const loginApiUrl = 'http://127.0.0.1:8000/v1/api/auth/login'
+const loginApiUrl = 'https://dzblog.herokuapp.com/v1/api/auth/login'
+
+
 
 
 loginForm.addEventListener('submit', (e) => {
