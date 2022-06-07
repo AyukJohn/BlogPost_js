@@ -2,7 +2,7 @@
 
 logoutForm = document.querySelector('.logout-form');
 // const urlPost = 'http://127.0.0.1:8000/v1/api/auth/logout';
-const urlPost = 'https://dzblog.herokuapp.com/v1/api/auth/logout';
+const urlPost = 'https://dzblog.herokuapp.com/accounts/v1/api/auth/logout';
 
 
 
